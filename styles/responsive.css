@@ -1,0 +1,5 @@
+@media screen and (max-width: 576px) {
+    .navBar, .navLinks{
+        flex-direction: column;
+    }
+}
