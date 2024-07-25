@@ -14,7 +14,13 @@
 .display-flex{
     display: flex;
 }
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 100px;
+}
 .dark1{
     color: #131313;
 }
@@ -23,6 +29,9 @@
 }
 .dark3{
     color: #727272;
+}
+.txtOrange{
+    color: #FF900E;
 }
 .btnPrimary{
     background-color: #FF900E;
@@ -71,4 +80,28 @@
 }
 .bannerImage{
     width: 100%;
+}
+.bannerDescription{
+    font-size: 1rem;
+}
+/* team and feature related */
+.teams{
+    align-items: center;
+}
+.teamImgContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.ourFeatures{
+    margin-left: 73px ;
+    border: 2rem;
+    font-size: 2.5rem;
+    max-width: 530px;
+}
+.featureDescription{
+    font-size: 1rem;
+}
+#quickList{
+    font-weight: 500;
 }
