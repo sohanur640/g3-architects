@@ -8,7 +8,8 @@
     .teamImgContainer,
     .someFacts,
     .achivment,
-    .sponsorCompany{
+    .sponsorCompany,
+    .features{
         grid-template-columns: 1fr;
        
     }
@@ -20,6 +21,11 @@
     }
     .ourFeatures{
         margin-left: 10px;
+    }
+
+    #experienceBadge{
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
 }
