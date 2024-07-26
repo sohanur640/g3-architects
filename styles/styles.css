@@ -42,6 +42,9 @@ main > section{
     font-size: 1.25rem;
     border: none;
 }
+.text{
+    font-size: 1rem;
+}
 /* header Styles */
 
 /* nav bar related styles */
@@ -83,6 +86,7 @@ main > section{
 }
 .bannerDescription{
     font-size: 1rem;
+    max-width: 500px;
 }
 /* team and feature related */
 .teams{
@@ -108,5 +112,43 @@ main > section{
 .sectionTitle{
     font-size: 2.8rem;
     font-weight: bold;
-    
+
+}
+/* some fact */
+.achivment{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.factCard{
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.factValue{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.factName{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+/* sponsor related */
+.sponsorsInfo{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsorCompany{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+.sponsorCompany > img{
+    filter: grayscale(100%);
 }
